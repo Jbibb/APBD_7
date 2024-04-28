@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 namespace APBD_7.DTOs;
 
-public record AddProductRequest(
+public record AddProductDTO(
     [Required] int IdProduct,
     [Required] int IdWarehouse,
     [Required] int Amount,
